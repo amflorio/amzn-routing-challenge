@@ -1,0 +1,26 @@
+SYSTEM=x86-64_linux
+LIBFORMAT=static_pic
+
+CCC=g++ -O2
+CCOPT=-std=c++11 -Wall -m64 -fPIC -fno-strict-aliasing -fexceptions -fopenmp# -DNDEBUG
+
+CCLNFLAGS=-lm -lpthread -ldl -lboost_serialization -larmadillo -lmlpack
+
+CCFLAGS=$(CCOPT)
+
+SOURCES=AlgoInput.cpp Algorithm.cpp DatasetBuilder.cpp EntryExit.cpp JSONParser.cpp LassoRegression.cpp Learner.cpp LocalSearch.cpp Package.cpp Route.cpp RoutingPattern.cpp Sequence.cpp SequenceBuilder.cpp SolutionInspector.cpp Stop.cpp Tester.cpp TestRoute.cpp TrainingRoute.cpp TSPHeuristic.cpp TTMatrix.cpp main.cpp
+
+OBJECTS=$(SOURCES:.cpp=.o)
+	EXECUTABLE=main
+
+all: $(SOURCES) $(EXECUTABLE)
+
+$(EXECUTABLE): $(OBJECTS)
+	$(CCC) $(CCFLAGS) $(CCLNDIRS) $(OBJECTS) -o $@ $(CCLNFLAGS)
+
+.cpp.o:
+	$(CCC) -c $(CCFLAGS) $< -o $@
+
+clean:
+	/bin/rm -rf *.o main
+
