@@ -18,7 +18,7 @@ For more details on the framework and this implementation, please refer to:
 
 and
 
-**Florio, A.M., da Costa, P., & Özarık, S.S. (2021). A Machine Learning Framework for Last-Mile Delivery Optimization. In Winkenbach, M., Parks, S., & Noszek, J. (Eds.), Technical Proceedings of the 2021 Amazon Last Mile Routing Research Challenge (pp. XII.1–XII.19). MIT Libraries. **[https://hdl.handle.net/1721.1/131235](https://hdl.handle.net/1721.1/131235)**
+**Florio, A.M., da Costa, P., & Özarık, S.S. (2021). A Machine Learning Framework for Last-Mile Delivery Optimization. In Winkenbach, M., Parks, S., & Noszek, J. (Eds.), Technical Proceedings of the 2021 Amazon Last Mile Routing Research Challenge (pp. XII.1–XII.19). MIT Libraries. **[https://hdl.handle.net/1721.1/131235](https://hdl.handle.net/1721.1/131235)
 
 ## Dependencies
 The implementation requires:
