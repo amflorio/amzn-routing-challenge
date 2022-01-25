@@ -14,7 +14,7 @@ The **pool and select** framework is a machine learning-based framework for opti
 ### Reference
 For more details on the framework and this implementation, please refer to:
 
-**Özarık, S.S., da Costa, P., & Florio, A.M. (2022) Machine Learning for Data-Driven Last-Mile Delivery Optimization. Available at SSRN: [http://dx.doi.org/10.2139/ssrn.4012376](http://dx.doi.org/10.2139/ssrn.4012376)**
+**Özarık, S.S., da Costa, P., & Florio, A.M. (2022). Machine Learning for Data-Driven Last-Mile Delivery Optimization. Available at SSRN: [http://dx.doi.org/10.2139/ssrn.4012376](http://dx.doi.org/10.2139/ssrn.4012376)**
 
 and
 
